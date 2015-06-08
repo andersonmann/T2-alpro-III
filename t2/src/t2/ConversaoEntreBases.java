@@ -1,31 +1,8 @@
 package t2;
 
 /**********************************************************
- * Programa: programa em Java que demonstra a
- *           conversão de números entre bases diferentes
- *
- * Compilação: javac ConversaoEntreBases.java
- * Execução: java ConversaoEntreBases
- *
- * % java ConversaoEntreBases
- * % ---------------------------------
- * % Decimal 211 para Binário: 11010011
- * % Decimal 211 para Octal: 323
- * % Decimal 211 para Hexadecimal: d3
- * % ---------------------------------
- * % Binário: 11101110 para Decimal: 238
- * % Binário: 11101110 para Octal: 356
- * % Binário: 11101110 para Hexadecimal: ee
- * % ---------------------------------
- * % Octal: 77 para Decimal: 63
- * % Octal: 77 para Binário: 111111
- * % Octal: 77 para Hexadecimal: 3f
- * % ---------------------------------
- * % Hexadecimal: 58 para Decimal: 88
- * % Hexadecimal: 58 para Binário: 1011000
- * % Hexadecimal: 58 para Octal: 130
- *
- * @author Marcos Cesar Kossoski
+ * 
+ * @author Anderson Mann
  *
 **********************************************************/
 public class ConversaoEntreBases {
@@ -41,9 +18,6 @@ public class ConversaoEntreBases {
     String octal = Integer.toOctalString(decimal);
     // decimal para hexadecimal
     String hexadecimal = Integer.toHexString(decimal);
-    //decimar para base 6
-   // String baseSeis = Integer.to
-
     System.out.println("---------------------------------");
     System.out.println("Decimal " + dec + " para Binário: " + binario);
     System.out.println("Decimal " + dec + " para Octal: " + octal);
